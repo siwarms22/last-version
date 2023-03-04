@@ -1,0 +1,19 @@
+.container {
+    margin-top: 60px;
+  }
+  
+  .form-control:focus {
+    border-color: #FFB6C1; /* changer la couleur de la bordure lorsqu'on clique sur un champ */
+    box-shadow: none; /* enlever l'ombre sur la bordure */
+  }
+  
+  .btn-info {
+    background-color: #FFB6C1; /* changer la couleur de fond du bouton */
+    border-color: #FFB6C1; /* changer la couleur de la bordure du bouton */
+  }
+  
+  .btn-info:hover {
+    background-color: #FA8072; /* changer la couleur de fond du bouton lorsqu'on survole avec la souris */
+    border-color: #FA8072; /* changer la couleur de la bordure du bouton lorsqu'on survole avec la souris */
+  }
+  

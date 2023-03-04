@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: #0f628b;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 50px;
+  }
+  
+  
+  
+  .logoImage {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    transition: all 0.2s ease-in-out; /* Ajout de l'animation */
+  }
+  
+  .logoImage:hover {
+    transform: scale(1.1); /* Augmente la taille de l'image au survol */
+  }
+  
+  .navItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navButton {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; /* Ajout de l'animation */
+  }
+  
+  .navButton:hover {
+    color: #FFA07A;
+    transform: scale(1.2); /* Augmente la taille du bouton au survol */
+  }
+  
+  .navButtonGroup {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rectangle-list {
+    list-style: none;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+  }
+  
+  .navButton1 {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; /* Ajout de l'animation */
+  }
+  
+  .navButton1:hover {
+    color: #FFA07A;
+    transform: scale(1.2); /* Augmente la taille du bouton au survol */
+  }
+  
+  .fa-icon {
+    margin-right: 10px;
+  }
